@@ -1,0 +1,33 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* body {
+  margin-left: 270px;
+} */
+
+section {
+  min-height: 100vh;
+  background-color: yellowgreen;
+  margin-left: 270px;
+}
+
+.about-us div {
+  position: absolute;
+  top: 30%;
+  background-color: blanchedalmond;
+  margin: 0 0 0 50px;
+}
+.experience div {
+  margin-top: 50px;
+}
+
+h1 {
+  color: indianred;
+  position: block;
+  top: 30%;
+}
+
+p {
+  color: green;
+}
