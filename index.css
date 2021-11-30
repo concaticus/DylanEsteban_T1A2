@@ -46,7 +46,6 @@ html::-webkit-scrollbar-thumb {
 body {
   background: #111;
   overflow-x: hidden;
-  padding-left: 55rem;
 }
 
 /*header */
@@ -194,23 +193,6 @@ header .navbar ul li a:hover {
   z-index: 1000;
   display: none;
 } */
-
-.home {
-  display: flex;
-  justify-content: center;
-  flex-flow: column;
-  padding: 0 20rem;
-}
-
-.home h3 {
-  font-size: 2.5rem;
-  color: #fff4e6;
-}
-
-.home h1 {
-  font-size: 5rem;
-  color: #fff4e6;
-}
 
 /* media queries for responsive & mobile design */
 @media (max-width: 1200px) {
