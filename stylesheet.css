@@ -330,6 +330,59 @@ header .copy-rights p {
 
 /* ABOUT PAGE STYLING STARTS */
 
+/* round three bismillah  */
+
+.about {
+  width: 100%;
+  min-height: 100vh;
+  /* background-color: #ddd; */
+}
+
+.container {
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.content-section {
+  float: left;
+  width: 55%;
+  background-color: #ddd;
+}
+
+.info {
+  float: right;
+  width: 40%;
+  background-color: var(--salmon);
+}
+
+.info .skills {
+  /* list-style: none; */
+}
+
+.info .skills li {
+  list-style: none;
+}
+
+.content-section .history h1 {
+  margin-top: 27px;
+  text-transform: uppercase;
+}
+
+.content-section .content h3 {
+  color: #5d5d5d5d;
+  margin-top: 20px;
+}
+
+.content-section .content p {
+  font-family: "Montserrat";
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/* issues here: try another style  */
 /* .about-me .info {
   padding: 1rem 0;
   display: flex;
@@ -338,13 +391,22 @@ header .copy-rights p {
   flex-wrap: wrap;
 } */
 
+/* .about-me .row {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+} */
+/* 
 .about-me .row {
   padding: 1rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-}
+  width: ;
+} */
 
 /* ABOUT PAGE STYLING ENDS */
 
