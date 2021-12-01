@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300;400;600&display=swap");
 
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
 /* global variables + pseudo*/
 :root {
   --salmon: #ffa595;
@@ -248,27 +251,51 @@ section {
 }
 
 /* social media links in navbar  */
-.nav-socials {
+header .nav-socials ul {
+  /* position: absolute; */
+  /* top: 80%;
+  left: 20%; */
+  padding: 0;
+  margin: 0;
+  transform: translate(-50% -50%);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  /* margin: 18px 0; */
-  padding: 2rem;
 }
 
-.social-media a {
-  display: inline-flex;
-  width: 50px;
-  height: 50px;
-  background: #2c3e50;
-  color: whitesmoke;
-  margin: 0 6px;
-  border-radius: 50%;
-  justify-content: center;
-  align-items: center;
-  transition: 0.4s;
-  font-size: 27px;
+header .nav-socials ul li {
+  display: flex;
+  list-style: none;
+  margin: 0 17px;
+}
+
+header .nav-socials ul li .fab {
+  font-size: 25px;
+  line-height: 50px;
+  transition: 0.5.5s;
+  color: #262f40;
+}
+header .nav-socials li a {
+  transition: all 0.3s ease 0s;
+  /* padding: 9px 20px; */
+  /* background-color: rgba(36, 37, 42); */
+  /* border-style: solid; */
+  /* border-color: whitesmoke; */
+  /* border-radius: 50%; */
+  /* margin: 0 3px; */
+  font-size: 10px;
+}
+
+header .nav-socials li a:hover {
+  /* color: #f67280; */
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* font-weight: 800; */
+}
+
+header .nav-socials ul li .fab:hover {
+  color: #f67280;
+  font-weight: 1000;
 }
 
 /* media queries for responsive & mobile design */
