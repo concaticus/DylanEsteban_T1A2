@@ -220,9 +220,17 @@ section {
 .home p {
   font-size: 2rem;
   color: #eee;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
+  font-style: normal;
+  font-variant: small-caps;
 }
 
+.home span {
+  color: #f67280;
+  font-weight: bold;
+}
+
+/* cv-button's styling */
 .cv-btn {
   padding: 0.7rem 3rem;
   color: #f67280;
@@ -237,6 +245,30 @@ section {
 .cv-btn:hover {
   background: var(--salmon);
   color: #111;
+}
+
+/* social media links in navbar  */
+.nav-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* margin: 18px 0; */
+  padding: 2rem;
+}
+
+.social-media a {
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
+  background: #2c3e50;
+  color: whitesmoke;
+  margin: 0 6px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  font-size: 27px;
 }
 
 /* media queries for responsive & mobile design */
