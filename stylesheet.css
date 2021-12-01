@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 /* global variables + pseudo*/
+/* add more global variables for colors */
 :root {
   --salmon: #ffa595;
 }
@@ -202,7 +203,7 @@ header .navbar ul li a:hover {
   display: flex;
   justify-content: center;
   flex-flow: column;
-  padding: 0 20rem;
+  padding: 0 40rem;
 }
 
 .home h3 {
@@ -235,9 +236,11 @@ section {
 
 /* cv-button's styling */
 .cv-btn {
-  padding: 0.7rem 3rem;
-  color: #f67280;
-  background: #fff4e6;
+  padding: 0.7rem 2rem;
+  /* color: #f67280; */
+  /* background: #fff4e6; */
+  background: var(--salmon);
+  color: #111;
   cursor: pointer;
   margin-top: 1rem;
   font-size: 2rem;
@@ -246,8 +249,10 @@ section {
 }
 
 .cv-btn:hover {
-  background: var(--salmon);
-  color: #111;
+  /* background: var(--salmon); */
+  /* color: #111; */
+  color: #f67280;
+  background: #fff4e6;
 }
 
 /* social media links in navbar  */
@@ -295,13 +300,76 @@ header .nav-socials li a:hover {
 
 header .nav-socials ul li .fab:hover {
   color: #f67280;
+  font-size: 35px;
   font-weight: 1000;
 }
 
-/* media queries for responsive & mobile design */
+header .copy-rights p {
+  position: relative;
+  padding-top: 100%;
+  font: bold;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+/* headings for each page  */
+.page-heading {
+  text-align: center;
+  margin: 0 6.5rem;
+  padding: 1rem;
+  border-bottom: 0.3rem solid var(--salmon);
+  color: #fff4e6;
+}
+
+.page-heading span {
+  color: var(--salmon);
+}
+
+/* ABOUT PAGE STYLING STARTS */
+
+/* .about-me .info {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+} */
+
+.about-me .row {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ABOUT PAGE STYLING ENDS */
+
+/* PROJECTS PAGE STYLING STARTS */
+
+/* PROJECTS PAGE STYLING ENDS */
+
+/* BLOG PAGE STYLING STARTS */
+
+/* BLOG PAGE STYLING ENDS */
+
+/* CONTACT ME PAGE STYLING STARTS */
+
+/* CONTACT ME PAGE STYLING ENDs */
+
+/* media queries for responsive & mobile design (Home + Navbar so far)*/
+/* media queries  */
+
 @media (max-width: 1200px) {
   html {
-    font-size: 50%;
+    font-size: 55%;
+  }
+
+  .home {
+    padding: 1rem 4rem;
   }
 }
 
@@ -309,8 +377,37 @@ header .nav-socials ul li .fab:hover {
   header {
     left: -120%;
   }
-
-  #menu {
+  /* hamburger menu will need to go here to toggle when smaller screen is activated  */
+  /* #menu {
     display: block;
+  } */
+}
+
+@media (max-width: 400px) {
+  header {
+    width: 100vh;
+  }
+  /* hamburger menu will need to go here to toggle when smaller screen is activated  */
+  /* #menu {
+    display: block;
+  } */
+  body {
+    padding: 0;
+  }
+}
+
+@media (max-width: 770px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 400px) {
+  header {
+    width: 100vw;
+  }
+
+  .heading {
+    margin: 0 3rem;
   }
 }
