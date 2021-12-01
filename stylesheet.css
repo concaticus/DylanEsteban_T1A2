@@ -7,18 +7,23 @@
 /* add more global variables for colors */
 :root {
   --salmon: #ffa595;
+  --grey: #435371;
+  --pink: #f67280;
+  --cream: #fff4e6;
+  --deep-blue: #262f40;
 }
 
 /* Navbar and home section styling  */
 * {
   font-family: "Catamaran", sans-serif;
+  /* font-family: "Montserrat"; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   outline: none;
   border: none;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   transition: all 0.2s linear;
 }
 
@@ -48,7 +53,7 @@ html::-webkit-scrollbar-thumb {
 
 /* site's body  */
 body {
-  background: #262f40;
+  background: var(--deep-blue);
   overflow-x: hidden;
   padding-left: 35rem;
 }
@@ -67,7 +72,7 @@ header {
   /* background: #ffa595; */
 
   /* background: #f67280; */
-  background: #fff4e6;
+  background: var(--cream);
   /* background: #fff; */
   /* background: rgb(133, 133, 133); */
 
@@ -91,12 +96,12 @@ header .me img {
 
 header .me .name {
   font-size: 3.5rem;
-  color: #262f40;
+  color: var(--deep-blue);
 }
 
 header .me .title {
   font-size: 2rem;
-  color: #435371;
+  color: var(--grey);
 }
 
 /* Navbar styling + links */
@@ -122,7 +127,7 @@ header .navbar ul li a {
 
   /* background: #333; */
   /* color: var(--salmon); */
-  color: #f67280;
+  color: var(--pink);
   /* color: var(--salmon); */
   font-weight: bold;
   /* color: #355c7d; */
@@ -208,12 +213,12 @@ header .navbar ul li a:hover {
 
 .home h3 {
   font-size: 2.5rem;
-  color: #fff4e6;
+  color: var(--cream);
 }
 
 .home h1 {
   font-size: 5rem;
-  color: #fff4e6;
+  color: var(--cream);
 }
 
 section {
@@ -230,7 +235,7 @@ section {
 }
 
 .home span {
-  color: #f67280;
+  color: var(--pink);
   font-weight: bold;
 }
 
@@ -251,8 +256,8 @@ section {
 .cv-btn:hover {
   /* background: var(--salmon); */
   /* color: #111; */
-  color: #f67280;
-  background: #fff4e6;
+  color: var(--pink);
+  background: var(--cream);
 }
 
 /* social media links in navbar  */
@@ -279,7 +284,7 @@ header .nav-socials ul li .fab {
   font-size: 25px;
   line-height: 50px;
   transition: 0.5.5s;
-  color: #262f40;
+  color: var(--deep-blue);
 }
 header .nav-socials li a {
   transition: all 0.3s ease 0s;
@@ -299,7 +304,7 @@ header .nav-socials li a:hover {
 }
 
 header .nav-socials ul li .fab:hover {
-  color: #f67280;
+  color: var(--pink);
   font-size: 35px;
   font-weight: 1000;
 }
@@ -321,7 +326,7 @@ header .copy-rights p {
   margin: 0 6.5rem;
   padding: 1rem;
   border-bottom: 0.3rem solid var(--salmon);
-  color: #fff4e6;
+  color: var(--cream);
 }
 
 .page-heading span {
@@ -357,8 +362,9 @@ header .copy-rights p {
   background-color: var(--salmon);
 }
 
-.info .skills {
-  /* list-style: none; */
+.info .skills h1 {
+  margin-top: 27px;
+  text-transform: uppercase;
 }
 
 .info .skills li {
