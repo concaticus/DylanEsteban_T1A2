@@ -225,15 +225,18 @@ section {
 
 .cv-btn {
   padding: 0.7rem 3rem;
-  background: burlywood;
+  color: #f67280;
+  background: #fff4e6;
   cursor: pointer;
   margin-top: 1rem;
   font-size: 2rem;
   border-radius: 5rem;
+  font-weight: bolder;
 }
 
 .cv-btn:hover {
   background: var(--salmon);
+  color: #111;
 }
 
 /* media queries for responsive & mobile design */
