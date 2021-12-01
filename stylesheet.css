@@ -44,9 +44,9 @@ html::-webkit-scrollbar-thumb {
 
 /* site's body  */
 body {
-  background: #111;
+  background: #262f40;
   overflow-x: hidden;
-  padding-left: 55rem;
+  padding-left: 35rem;
 }
 
 /*header */
@@ -210,6 +210,30 @@ header .navbar ul li a:hover {
 .home h1 {
   font-size: 5rem;
   color: #fff4e6;
+}
+
+section {
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.home p {
+  font-size: 2rem;
+  color: #eee;
+  padding: 1rem 0;
+}
+
+.cv-btn {
+  padding: 0.7rem 3rem;
+  background: burlywood;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 2rem;
+  border-radius: 5rem;
+}
+
+.cv-btn:hover {
+  background: var(--salmon);
 }
 
 /* media queries for responsive & mobile design */
