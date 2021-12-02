@@ -324,13 +324,17 @@ header .copy-rights p {
   text-align: center;
   margin: 0 6.5rem;
   padding: 1rem;
-  border-bottom: 0.3rem solid var(--salmon);
+  border-bottom: 0.3rem solid var(--pink);
   color: var(--cream);
+  font-size: 25;
+
 }
 
 .page-heading span {
-  color: var(--salmon);
+  color: var(--pink);
+  /* font-size: 20; */
 }
+
 
 /* ABOUT PAGE STYLING STARTS */
 
@@ -410,10 +414,11 @@ header .copy-rights p {
 }
 
 .content-section .content p {
-  font-family: "Montserrat";
+  font-family: "Catamaran", sans-serif;
   margin-top: 10px;
   font-size: 16px;
   line-height: 2;
+  font-weight:400;
 }
 
 .content-section .content .projects-btn {
@@ -471,14 +476,16 @@ header .copy-rights p {
     padding: 8.5px 30px;
   }
 }
-@media /* issues here: try another style */ /* .about-me .info { padding: 1rem 0; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; } */ /* .about-me .row { padding: 1rem 0; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; } */ /* .about-me .row { padding: 1rem 0; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; width: ; } */ /* ABOUT PAGE STYLING ENDS */ /* PROJECTS PAGE STYLING STARTS */ /* PROJECTS PAGE STYLING ENDS */ /* BLOG PAGE STYLING STARTS */ /* BLOG PAGE STYLING ENDS */ /* CONTACT ME PAGE STYLING STARTS */ /* CONTACT ME PAGE STYLING ENDs */ /* media queries for responsive & mobile design (home + navbar so far) */ /* media queries */ @media (max-width: 1200px) {
-  html {
-    font-size: 55%;
-  }
 
-  .home {
-    padding: 1rem 4rem;
-  }
+/* media q's for navbar and index */
+/* issues here: try another style */ /* .about-me .info { padding: 1rem 0; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; } */ /* .about-me .row { padding: 1rem 0; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; } */ /* .about-me .row { padding: 1rem 0; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; width: ; } */ /* ABOUT PAGE STYLING ENDS */ /* PROJECTS PAGE STYLING STARTS */ /* PROJECTS PAGE STYLING ENDS */ /* BLOG PAGE STYLING STARTS */ /* BLOG PAGE STYLING ENDS */ /* CONTACT ME PAGE STYLING STARTS */ /* CONTACT ME PAGE STYLING ENDs */ /* media queries for responsive & mobile design (home + navbar so far) */ /* media queries */ @media (max-width: 1200px) {
+  @media (max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+    .home{
+        padding:1rem 4rem;
+    }
 }
 
 @media (max-width: 900px) {
