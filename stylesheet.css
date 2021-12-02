@@ -254,10 +254,8 @@ section {
 }
 
 .cv-btn:hover {
-  /* background: var(--salmon); */
-  /* color: #111; */
+  background-color: var(--grey);
   color: var(--pink);
-  background: var(--cream);
 }
 
 /* social media links in navbar  */
@@ -353,39 +351,86 @@ header .copy-rights p {
 .content-section {
   float: left;
   width: 55%;
-  background-color: #ddd;
+  /* background-color: var(--cream); */
+  color: var(--cream);
+  /* color: var(--deep-blue); */
 }
 
 .info {
   float: right;
   width: 40%;
-  background-color: var(--salmon);
 }
 
 .info .skills h1 {
   margin-top: 27px;
   text-transform: uppercase;
+  color: var(--salmon);
+  font-size: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+/* alternative styling for left column  */
+/* .info .skills li {
+  color: var(--pink);
+  font-size: 16px;
+  padding-left: 6rem;
+  list-style: circle;
+} */
+
 .info .skills li {
-  list-style: none;
+  /* list-style: none; */
+  color: var(--pink);
+  font-size: 18px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* list-style: circle; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 3;
 }
 
 .content-section .history h1 {
   margin-top: 27px;
   text-transform: uppercase;
+  color: var(--salmon);
+  font-size: 20;
 }
 
 .content-section .content h3 {
-  color: #5d5d5d5d;
+  color: var(--pink);
   margin-top: 20px;
+  font-size: 17px;
 }
 
 .content-section .content p {
   font-family: "Montserrat";
   margin-top: 10px;
   font-size: 16px;
-  line-height: 1.4;
+  line-height: 2;
+}
+
+.content-section .content .projects-btn {
+  margin-top: 30px;
+}
+
+.content-section .content .projects-btn a {
+  background-color: var(--salmon);
+  padding: 12px 40px;
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--deep-blue);
+  font-size: 17px;
+  letter-spacing: 1.4;
+  border-radius: 4rem;
+}
+
+.content-section .content .projects-btn a:hover {
+  background-color: var(--grey);
+  color: var(--pink);
 }
 
 /* issues here: try another style  */
