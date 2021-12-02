@@ -54,6 +54,7 @@ html::-webkit-scrollbar-thumb {
 /* site's body  */
 body {
   background: var(--deep-blue);
+  /* background: var(--cream); */
   overflow-x: hidden;
   padding-left: 35rem;
 }
@@ -346,6 +347,7 @@ header .copy-rights p {
   /* background-color: #ddd; */
 }
 
+
 .container {
   width: 80%;
   display: block;
@@ -478,7 +480,36 @@ header .copy-rights p {
 }
 
 /* media q's for navbar and index */
-/* issues here: try another style */ /* .about-me .info { padding: 1rem 0; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; } */ /* .about-me .row { padding: 1rem 0; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; } */ /* .about-me .row { padding: 1rem 0; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; width: ; } */ /* ABOUT PAGE STYLING ENDS */ /* PROJECTS PAGE STYLING STARTS */ /* PROJECTS PAGE STYLING ENDS */ /* BLOG PAGE STYLING STARTS */ /* BLOG PAGE STYLING ENDS */ /* CONTACT ME PAGE STYLING STARTS */ /* CONTACT ME PAGE STYLING ENDs */ /* media queries for responsive & mobile design (home + navbar so far) */ /* media queries */ @media (max-width: 1200px) {
+/* issues here: try another style */
+/* .about-me .info { padding: 1rem 0; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; } */ /* .about-me .row { padding: 1rem 0; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; } */ /* .about-me .row { padding: 1rem 0; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; width: ; } */ /* ABOUT PAGE STYLING ENDS */ 
+/* PROJECTS PAGE STYLING STARTS */
+
+.project-section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+
+.project-section h1 {
+  color: var(--salmon);
+  font-size: 27px;
+  /* padding-bottom: 5rem; */
+}
+
+.project-section p {
+  color: var(--cream);
+  font-size: 23px;
+}
+ 
+ /* PROJECTS PAGE STYLING ENDS */ 
+ 
+ 
+ /* BLOG PAGE STYLING STARTS */ /* BLOG PAGE STYLING ENDS */ /* CONTACT ME PAGE STYLING STARTS */ /* CONTACT ME PAGE STYLING ENDs */ /* media queries for responsive & mobile design (home + navbar so far) */ /* media queries */ @media (max-width: 1200px) {
   @media (max-width:1200px){
     html{
         font-size: 55%;
