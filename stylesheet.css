@@ -482,6 +482,7 @@ header .copy-rights p {
 /* media q's for navbar and index */
 /* issues here: try another style */
 /* .about-me .info { padding: 1rem 0; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; } */ /* .about-me .row { padding: 1rem 0; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; } */ /* .about-me .row { padding: 1rem 0; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; width: ; } */ /* ABOUT PAGE STYLING ENDS */ 
+
 /* PROJECTS PAGE STYLING STARTS */
 
 .project-section {
@@ -490,8 +491,6 @@ header .copy-rights p {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  
 }
 
 
@@ -505,11 +504,84 @@ header .copy-rights p {
   color: var(--cream);
   font-size: 23px;
 }
- 
  /* PROJECTS PAGE STYLING ENDS */ 
+
+ /* BLOG PAGE STYLING STARTS */ 
+#blog {
+
+}
+ 
+ /* BLOG PAGE STYLING ENDS */ 
+
+
+
+ /* CONTACT ME PAGE STYLING STARTS */
+
+#contact h1 p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--cream)
+}
+
+/* social media links in navbar  */
+#contact .contact-socials ul {
+  /* position: absolute; */
+  /* top: 80%;
+  left: 20%; */
+  padding: 0;
+  margin: 0;
+  transform: translate(-50% -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#contact .contact-socials ul li {
+  display: flex;
+  list-style: none;
+  margin: 0 17px;
+}
+
+#contact .contact-socials ul li .fab {
+  font-size: 25px;
+  line-height: 50px;
+  transition: 0.5.5s;
+  color: var(--cream);
+}
+
+#contact .contact-socials li a {
+  transition: all 0.3s ease 0s;
+  font-size: 10px;
+}
+
+
+#contact .contact-socials ul li .fab:hover {
+  color: var(--pink);
+  font-size: 35px;
+  font-weight: 1000;
+}
+
+
+
+
+
+
+
+/* .contact-form {
+  width: 450px;
+
+} */
+
+
  
  
- /* BLOG PAGE STYLING STARTS */ /* BLOG PAGE STYLING ENDS */ /* CONTACT ME PAGE STYLING STARTS */ /* CONTACT ME PAGE STYLING ENDs */ /* media queries for responsive & mobile design (home + navbar so far) */ /* media queries */ @media (max-width: 1200px) {
+ /* CONTACT ME PAGE STYLING ENDs */
+ 
+ 
+ 
+ /* media queries for responsive & mobile design (home + navbar so far) */ /* media queries */ @media (max-width: 1200px) {
   @media (max-width:1200px){
     html{
         font-size: 55%;
