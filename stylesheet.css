@@ -545,15 +545,44 @@ header .copy-rights p {
   align-items: center;
   justify-content: center;
   margin: auto;
+  /* flex-wrap: wrap; */
 }
 
 .blog-card {
   background-color: var(--cream);
 }
 
-.blog-card img {
+.content-sect .blog-card img {
     max-width:100%;
     height:auto;
+}
+
+
+
+.content-sect .blog-card h3 {
+  margin-top: 18px;
+  color: var(--deep-blue);
+  font-size: 25px;
+}
+
+.content-sect .blog-card p {
+  font-size: 19px;
+  color:var(--grey);
+  line-height: 1.4;
+  margin-top: 10px;
+}
+
+.content-sect .blog-card {
+  flex: 1;
+  margin: 35px 25px;
+  
+}
+
+/* media queries for blog page */
+@media screen and (max-width: 1096px) {
+  .content-sect {
+    flex-direction: column;
+  }  
 }
 
 
