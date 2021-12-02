@@ -507,9 +507,61 @@ header .copy-rights p {
  /* PROJECTS PAGE STYLING ENDS */ 
 
  /* BLOG PAGE STYLING STARTS */ 
-#blog {
 
+.blog-container {
+  min-height: 100vh;
+  width: 100%;
+  padding-top: 15%;
+  background-color: (var(--cream));
 }
+
+.blog-container .rows {
+  margin: auto;
+  width: 85%;
+}
+/* 
+.blog-container .rows{
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.blog-container .rows h1{
+  font-size: 37px;
+  padding-top: 30px;
+}
+
+
+.blog-container .rows p{
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--cream);
+  color: var(--deep-blue);
+  margin-top: 16px;
+} */
+
+.content-sect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.blog-card {
+  background-color: var(--cream);
+}
+
+.blog-card img {
+    max-width:100%;
+    height:auto;
+}
+
+
+
+
+
+
+
  
  /* BLOG PAGE STYLING ENDS */ 
 
@@ -517,18 +569,34 @@ header .copy-rights p {
 
  /* CONTACT ME PAGE STYLING STARTS */
 
-#contact h1 p{
+#contact {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--cream)
+  flex-wrap: wrap;
+  padding: 20% 20%;
 }
+#contact h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--salmon);
+  font-size: 27px;
+  padding-bottom:20% 20%;
+}
+
+#contact p {
+  font-size: 22px;
+  color: var(--cream);
+  padding: 10%;
+}
+
 
 /* social media links in navbar  */
 #contact .contact-socials ul {
   /* position: absolute; */
-  /* top: 80%;
-  left: 20%; */
+  /* top: 80%; */
+  /* left: 20%;  */
   padding: 0;
   margin: 0;
   transform: translate(-50% -50%);
