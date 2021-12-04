@@ -243,10 +243,8 @@ section {
 /* cv-button's styling */
 .cv-btn {
   padding: 0.7rem 2rem;
-  /* color: #f67280; */
-  /* background: #fff4e6; */
   background: var(--salmon);
-  color: #111;
+  color: var(--deep-blue);
   cursor: pointer;
   margin-top: 1rem;
   font-size: 2rem;
@@ -260,14 +258,10 @@ section {
   color: var(--pink);
 }
 
-/* social media links in navbar  */
+/* social media links in navbar + */
 header .nav-socials ul {
-  /* position: absolute; */
-  /* top: 80%;
-  left: 20%; */
   padding: 0;
   margin: 0;
-  transform: translate(-50% -50%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -283,35 +277,23 @@ header .nav-socials ul li {
 header .nav-socials ul li .fab {
   font-size: 25px;
   line-height: 50px;
-  transition: 0.5.5s;
   color: var(--deep-blue);
 }
-header .nav-socials li a {
-  transition: all 0.3s ease 0s;
-  /* padding: 9px 20px; */
-  /* background-color: rgba(36, 37, 42); */
-  /* border-style: solid; */
-  /* border-color: whitesmoke; */
-  /* border-radius: 50%; */
-  /* margin: 0 3px; */
-  font-size: 10px;
-}
 
-header .nav-socials li a:hover {
-  /* color: #f67280; */
-  /* background-color: rgba(255, 255, 255, 0.8); */
-  /* font-weight: 800; */
+header .nav-socials li a .fab {
+  font-size: 30px;
 }
 
 header .nav-socials ul li .fab:hover {
   color: var(--pink);
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 1000;
 }
-
+/* copyright styling  */
 header .copy-rights p {
   position: relative;
-  padding-top: 100%;
+  padding-top: 50%;
+  padding-bottom: 50%;
   font: bold;
   font-size: 12px;
   display: flex;
@@ -325,17 +307,15 @@ header .copy-rights p {
   text-align: center;
   margin: 0 6.5rem;
   padding: 1rem;
-  border-bottom: 0.3rem solid var(--pink);
+  border-bottom: 0.25rem solid var(--grey);
   color: var(--cream);
   font-size: 25;
-
 }
 
 .page-heading span {
   color: var(--pink);
-  /* font-size: 20; */
+  font-size: 30;
 }
-
 
 /* ABOUT PAGE STYLING STARTS */
 
@@ -346,7 +326,6 @@ header .copy-rights p {
   min-height: 100vh;
   /* background-color: #ddd; */
 }
-
 
 .container {
   width: 80%;
@@ -420,7 +399,7 @@ header .copy-rights p {
   margin-top: 10px;
   font-size: 16px;
   line-height: 2;
-  font-weight:400;
+  font-weight: 400;
 }
 
 .content-section .content .projects-btn {
@@ -481,7 +460,7 @@ header .copy-rights p {
 
 /* media q's for navbar and index */
 /* issues here: try another style */
-/* .about-me .info { padding: 1rem 0; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; } */ /* .about-me .row { padding: 1rem 0; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; } */ /* .about-me .row { padding: 1rem 0; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; width: ; } */ /* ABOUT PAGE STYLING ENDS */ 
+/* .about-me .info { padding: 1rem 0; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; } */ /* .about-me .row { padding: 1rem 0; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; } */ /* .about-me .row { padding: 1rem 0; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; width: ; } */ /* ABOUT PAGE STYLING ENDS */
 
 /* PROJECTS PAGE STYLING STARTS */
 
@@ -493,7 +472,6 @@ header .copy-rights p {
   align-items: center;
 }
 
-
 .project-section h1 {
   color: var(--salmon);
   font-size: 27px;
@@ -504,9 +482,9 @@ header .copy-rights p {
   color: var(--cream);
   font-size: 23px;
 }
- /* PROJECTS PAGE STYLING ENDS */ 
+/* PROJECTS PAGE STYLING ENDS */
 
- /* BLOG PAGE STYLING STARTS */ 
+/* BLOG PAGE STYLING STARTS */
 
 .blog-container {
   min-height: 100vh;
@@ -553,11 +531,9 @@ header .copy-rights p {
 }
 
 .content-sect .blog-card img {
-    max-width:100%;
-    height:auto;
+  max-width: 100%;
+  height: auto;
 }
-
-
 
 .content-sect .blog-card h3 {
   margin-top: 18px;
@@ -567,7 +543,7 @@ header .copy-rights p {
 
 .content-sect .blog-card p {
   font-size: 19px;
-  color:var(--grey);
+  color: var(--grey);
   line-height: 1.4;
   margin-top: 10px;
 }
@@ -575,28 +551,34 @@ header .copy-rights p {
 .content-sect .blog-card {
   flex: 1;
   margin: 35px 25px;
-  
 }
 
 /* media queries for blog page */
 @media screen and (max-width: 1096px) {
   .content-sect {
     flex-direction: column;
-  }  
+  }
+  * {
+    padding: 0;
+    margin: 0;
+  }
 }
 
+/* its because the header is still there  */
+@media screen and (max-width: 768px) {
+  .content-sect {
+    flex-direction: column;
+  }
+  header {
+    display: none;
+    padding: 0;
+    margin: 0;
+  }
+}
 
+/* BLOG PAGE STYLING ENDS */
 
-
-
-
-
- 
- /* BLOG PAGE STYLING ENDS */ 
-
-
-
- /* CONTACT ME PAGE STYLING STARTS */
+/* CONTACT ME PAGE STYLING STARTS */
 
 #contact {
   display: flex;
@@ -611,7 +593,7 @@ header .copy-rights p {
   align-items: center;
   color: var(--salmon);
   font-size: 27px;
-  padding-bottom:20% 20%;
+  padding-bottom: 20% 20%;
 }
 
 #contact p {
@@ -619,7 +601,6 @@ header .copy-rights p {
   color: var(--cream);
   padding: 10%;
 }
-
 
 /* social media links in navbar  */
 #contact .contact-socials ul {
@@ -653,65 +634,41 @@ header .copy-rights p {
   font-size: 10px;
 }
 
-
 #contact .contact-socials ul li .fab:hover {
   color: var(--pink);
   font-size: 35px;
   font-weight: 1000;
 }
 
-
-
-
-
-
-
 /* .contact-form {
   width: 450px;
 
 } */
 
+/* CONTACT ME PAGE STYLING ENDs */
 
- 
- 
- /* CONTACT ME PAGE STYLING ENDs */
- 
- 
- 
- /* media queries for responsive & mobile design (home + navbar so far) */ /* media queries */ @media (max-width: 1200px) {
-  @media (max-width:1200px){
-    html{
-        font-size: 55%;
+/* media queries for responsive & mobile design (home + navbar so far) */ /* media queries */
+@media (max-width: 1200px) {
+  @media (max-width: 1200px) {
+    html {
+      font-size: 55%;
     }
-    .home{
-        padding:1rem 4rem;
+    .home {
+      padding: 1rem 4rem;
     }
+  }
 }
 
 @media (max-width: 900px) {
   header {
     left: -120%;
   }
-  /* hamburger menu will need to go here to toggle when smaller screen is activated  */
-  /* #menu {
-    display: block;
-  } */
-}
-
-@media (max-width: 400px) {
-  header {
-    width: 100vh;
-  }
-  /* hamburger menu will need to go here to toggle when smaller screen is activated  */
-  /* #menu {
-    display: block;
-  } */
   body {
     padding: 0;
   }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 768px) {
   html {
     font-size: 50%;
   }
