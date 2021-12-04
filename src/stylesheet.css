@@ -54,15 +54,7 @@ header {
   z-index: 1000;
   height: 100%;
   width: 35rem;
-  /* background: #888; */
-  /* background: #262f40; */
-  /* background: #ffe9dc; */
-  /* background: #ffa595; */
-
-  /* background: #f67280; */
   background: var(--cream);
-  /* background: #fff; */
-  /* background: rgb(133, 133, 133); */
 
   display: flex;
   align-items: center;
