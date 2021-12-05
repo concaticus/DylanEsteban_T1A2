@@ -1,0 +1,155 @@
+commit da9137bf82fc08f3cb39ebcefd225b1c2b525286
+Author: dylan-devs <GCAS022117@coderacademy.edu.au>
+Date:   Sat Dec 4 23:54:53 2021 +1100
+
+    changes sri not working
+
+commit 85ce79bd00da24a04b69e6362baf735a0732dd7f
+Author: dylan-devs <GCAS022117@coderacademy.edu.au>
+Date:   Sat Dec 4 23:44:06 2021 +1100
+
+    Final touches
+
+commit 5db9dee0a3ff6fbe4ccae238fb741dc68fcfea19
+Author: dylan-devs <GCAS022117@coderacademy.edu.au>
+Date:   Sat Dec 4 23:29:51 2021 +1100
+
+    fixed folders
+
+commit 00c8412346d26dac89410ced557356776ac738dd
+Author: dylan-devs <GCAS022117@coderacademy.edu.au>
+Date:   Sat Dec 4 22:27:45 2021 +1100
+
+    Deployment
+
+commit e6111ad5e53682179fc1bed54c1921c1aabc733d
+Author: dylan-devs <GCAS022117@coderacademy.edu.au>
+Date:   Sat Dec 4 21:48:13 2021 +1100
+
+    Folders fixed
+
+commit 4009f53f4dfa760e534b65a6abc1f9f6398b0ce4
+Author: dylan-devs <GCAS022117@coderacademy.edu.au>
+Date:   Sat Dec 4 21:31:26 2021 +1100
+
+    Testing
+
+commit 3f1496490b0517889468193be75aa5b1e56625d0
+Author: dylan-devs <GCAS022117@coderacademy.edu.au>
+Date:   Sat Dec 4 20:29:45 2021 +1100
+
+    Mobile menu added and responsive issues fixed; slides added
+
+commit 55232b6e549f5402907505db3884103ee72bda8d
+Author: dylan-devs <GCAS022117@coderacademy.edu.au>
+Date:   Sat Dec 4 19:05:56 2021 +1100
+
+    Mobile menu added; minor corrections needed
+
+commit 3eda6bb4d37d152657dfee2cf54aaf94b2e58ab6
+Author: dylan-devs <GCAS022117@coderacademy.edu.au>
+Date:   Sat Dec 4 16:50:41 2021 +1100
+
+    Responsiveness issues fixed and now uniform across all pages
+
+commit b4e283f99b7d887b162cf3b3a5d39800645c4087
+Author: dylan-devs <GCAS022117@coderacademy.edu.au>
+Date:   Fri Dec 3 01:19:27 2021 +1100
+
+    Blog styling & responsive design done
+
+commit 4bcc2626cde917dcaf79d63a3171926eb35ac4ef
+Author: dylan-devs <GCAS022117@coderacademy.edu.au>
+Date:   Fri Dec 3 00:29:55 2021 +1100
+
+    blog page progress; more styling required
+
+commit 92235286f6939d89784fa0851a79688530dfd671
+Author: dylan-devs <GCAS022117@coderacademy.edu.au>
+Date:   Thu Dec 2 19:00:15 2021 +1100
+
+    Contact-me page; styling needs tidying up
+
+commit 1936995b1c8158de85b7a2bd4c52ad84b1697672
+Author: dylan-devs <GCAS022117@coderacademy.edu.au>
+Date:   Thu Dec 2 15:00:39 2021 +1100
+
+    Projects page done
+
+commit bb537454ef1812699723b6acfc14cc28f3dbda15
+Author: dylan-devs <GCAS022117@coderacademy.edu.au>
+Date:   Thu Dec 2 14:32:38 2021 +1100
+
+    page headings fixed and applied across the board
+
+commit 676865f9fc6d09a0184bb4e11a0b84cd52c3016b
+Author: dylan-devs <GCAS022117@coderacademy.edu.au>
+Date:   Thu Dec 2 12:53:37 2021 +1100
+
+    Media q's for About Page done
+
+commit ea228890b9d744ee159fe937ef77cb0f93ac6e02
+Author: dylan-devs <GCAS022117@coderacademy.edu.au>
+Date:   Thu Dec 2 11:57:13 2021 +1100
+
+    Home page done; media q's to go
+
+commit 938bdf6d0e3d3b7b5f1e745a4623dcbd918defd4
+Author: dylan-devs <GCAS022117@coderacademy.edu.au>
+Date:   Thu Dec 2 10:16:41 2021 +1100
+
+    Added global variables for colours to ensure consistency and ease
+
+commit 94a64dab1b8fccfc0484c15da6c65c6154c97a15
+Author: dylan-devs <GCAS022117@coderacademy.edu.au>
+Date:   Thu Dec 2 00:43:03 2021 +1100
+
+    AboutPage: some progress made; continued issues with styling the containers - review later
+
+commit 4f269fbff888a27e06b25fd87d341e802a707380
+Author: dylan-devs <GCAS022117@coderacademy.edu.au>
+Date:   Wed Dec 1 23:31:14 2021 +1100
+
+    Media queries + about page; some styling issues to review/attend to shortly
+
+commit 354204b2c2251fc08fa367b2d59aab4e9314d2f7
+Author: dylan-devs <GCAS022117@coderacademy.edu.au>
+Date:   Wed Dec 1 15:52:02 2021 +1100
+
+    socials done
+
+commit 7d97368403a62a9fcccfddfe80f4139aec1917a6
+Author: dylan-devs <GCAS022117@coderacademy.edu.au>
+Date:   Wed Dec 1 14:26:22 2021 +1100
+
+    socials added - requrie tidy up
+
+commit aaac7a7cae5fa9dd554b4aec2d05b792c0e0c12d
+Author: dylan-devs <GCAS022117@coderacademy.edu.au>
+Date:   Wed Dec 1 12:05:24 2021 +1100
+
+    cv-btn operational + homepage tied up
+
+commit 51e2b6d6a7b5af8b65561407049c54d34bcb69f7
+Author: dylan-devs <GCAS022117@coderacademy.edu.au>
+Date:   Wed Dec 1 11:41:35 2021 +1100
+
+    home page issues resolved: functional
+
+commit 0167ab5df65736b07ab4125ec215ea8465e839b2
+Author: dylan-devs <GCAS022117@coderacademy.edu.au>
+Date:   Wed Dec 1 00:27:55 2021 +1100
+
+    Fixing repository link
+
+commit 9a40423c6049a3dddcea37d1a12b33b939a480b6
+Author: dylan-devs <GCAS022117@coderacademy.edu.au>
+Date:   Thu Oct 21 13:34:03 2021 +1100
+
+    changed background color
+
+commit ba5fa7ae1050a814ece7e3f463eb371d8dc9a1fe
+Author: dylan-devs <GCAS022117@coderacademy.edu.au>
+Date:   Thu Oct 21 13:08:05 2021 +1100
+
+    initial commit

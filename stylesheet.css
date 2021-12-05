@@ -33,17 +33,15 @@
   color: #333;
 }
 
-html {
-  font-size: 62%;
-  overflow-x: hidden;
-}
-
 /* site's body  */
 body {
   background: var(--deep-blue);
-  /* background: var(--cream); */
   overflow-x: hidden;
   padding-left: 35rem;
+}
+
+html {
+  font-size: 70%;
 }
 
 /*header */
@@ -55,7 +53,6 @@ header {
   height: 100%;
   width: 35rem;
   background: var(--cream);
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,15 +60,16 @@ header {
   text-align: center;
 }
 
-/* image - minor padding issue */
+/* image styling */
+.me {
+  padding-top: 65px;
+}
+
 header .me img {
   height: 17.5rem;
   width: 17.5rem;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 1.5rem;
-  /* border: 0.6rem solid var(--salmon); */
-  padding: none;
 }
 
 header .me .name {
@@ -90,7 +88,7 @@ header .navbar {
 }
 
 header .navbar ul {
-  padding: 7rem;
+  padding: 1em;
   padding-top: 1rem;
   list-style: none;
 }
@@ -214,7 +212,7 @@ header .copy-rights p {
 .page-heading {
   text-align: center;
   margin: 0 6.5rem;
-  padding: 1rem;
+  /* padding: 1rem; */
   border-bottom: 0.25rem solid var(--grey);
   color: var(--cream);
   font-size: 25;
@@ -232,22 +230,21 @@ header .copy-rights p {
 .about {
   width: 100%;
   min-height: 100vh;
-  /* background-color: #ddd; */
+  padding-bottom: 80px;
 }
 
 .container {
   width: 80%;
   display: block;
   margin: auto;
-  padding-top: 100px;
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
 
 .content-section {
   float: left;
   width: 55%;
-  /* background-color: var(--cream); */
   color: var(--cream);
-  /* color: var(--deep-blue); */
 }
 
 .info {
@@ -265,30 +262,17 @@ header .copy-rights p {
   justify-content: center;
 }
 
-/* alternative styling for left column  */
-/* .info .skills li {
-  color: var(--pink);
-  font-size: 16px;
-  padding-left: 6rem;
-  list-style: circle;
-} */
-
 .info .skills li {
-  /* list-style: none; */
   margin-top: 25px;
   color: var(--pink);
-  font-size: 18px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  /* list-style: circle; */
+  font-size: 22px;
   display: flex;
   align-items: center;
   justify-content: center;
   line-height: 2;
 }
 
-/* styling for right column in about  */
+/* styling for right column in about + button to projects */
 .content-section .history h1 {
   margin-top: 27px;
   text-transform: uppercase;
@@ -305,7 +289,7 @@ header .copy-rights p {
 .content-section .content p {
   font-family: "Catamaran", sans-serif;
   margin-top: 10px;
-  font-size: 16px;
+  font-size: 22px;
   line-height: 2;
   font-weight: 400;
 }
@@ -354,11 +338,11 @@ header .copy-rights p {
     width: 100%;
     display: block;
     margin: auto;
+    padding-top: 50px;
   }
   .content-section .content .projects-btn {
     text-align: center;
     font-size: 10px;
-    /* padding: 10px 35px; */
     border-radius: 2rem;
   }
   .content-section .content .projects-btn a {
@@ -366,24 +350,19 @@ header .copy-rights p {
   }
 }
 
-/* media q's for navbar and index */
-/* issues here: try another style */
-/* .about-me .info { padding: 1rem 0; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; } */ /* .about-me .row { padding: 1rem 0; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; } */ /* .about-me .row { padding: 1rem 0; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; width: ; } */ /* ABOUT PAGE STYLING ENDS */
-
 /* PROJECTS PAGE STYLING STARTS */
-
 .project-section {
   width: 100%;
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding: 0 50px;
 }
 
 .project-section h1 {
   color: var(--salmon);
   font-size: 27px;
-  /* padding-bottom: 5rem; */
 }
 
 .project-section p {
@@ -393,7 +372,6 @@ header .copy-rights p {
 /* PROJECTS PAGE STYLING ENDS */
 
 /* BLOG PAGE STYLING STARTS */
-
 .blog-container {
   min-height: 100vh;
   width: 100%;
@@ -406,14 +384,14 @@ header .copy-rights p {
   width: 85%;
 }
 
+/* display contents  */
 .content-sect {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: auto;
-  /* flex-wrap: wrap; */
 }
-
+/* entries styling */
 .blog-card {
   background-color: var(--cream);
 }
@@ -452,7 +430,6 @@ header .copy-rights p {
   }
 }
 
-/* its because the header is still there  */
 @media screen and (max-width: 768px) {
   .content-sect {
     flex-direction: column;
@@ -480,21 +457,22 @@ header .copy-rights p {
   justify-content: center;
   align-items: center;
   color: var(--salmon);
-  font-size: 27px;
+  font-size: 30px;
   padding-bottom: 20% 20%;
 }
 
 #contact p {
-  font-size: 22px;
+  font-size: 27px;
   color: var(--cream);
   padding: 10%;
 }
 
+#contact p a {
+  color: var(--pink);
+}
+
 /* social media links in navbar  */
 #contact .contact-socials ul {
-  /* position: absolute; */
-  /* top: 80%; */
-  /* left: 20%;  */
   padding: 0;
   margin: 0;
   transform: translate(-50% -50%);
@@ -528,14 +506,13 @@ header .copy-rights p {
   font-weight: 1000;
 }
 
-/* mobile navbar  */
+/* mobile navbar + styling */
 .mobile-menu {
   padding: 0;
   margin: 0;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  /* background: var(--cream); */
   height: 80px;
   width: 100%;
   background: var(--deep-blue);
@@ -576,8 +553,7 @@ label.mob-menu {
 }
 
 .check-btn {
-  font-size: 25px;
-  /* color: var(--deep-blue); */
+  font-size: 42px;
   color: var(--cream);
   margin-right: 38px;
   margin-top: 25px;
@@ -586,13 +562,13 @@ label.mob-menu {
   cursor: pointer;
   display: none;
 }
-
+/* menu check hidden  */
 #check {
   display: none;
 }
 
 /* media queries for mobile nav bar*/
-@media (max-width: 952px) {
+@media (max-width: 1000px) {
   label.mob-menu {
     padding-left: 45px;
     font-size: 25px;
@@ -602,9 +578,17 @@ label.mob-menu {
   }
 }
 
-@media (max-width: 855px) {
+@media (max-width: 1024px) {
   .check-btn {
     display: block;
+  }
+  .project-section {
+    display: flex;
+    align-items: center;
+  }
+  .about {
+    display: flex;
+    align-items: flex;
   }
   ul {
     text-align: center;
@@ -654,7 +638,7 @@ label.mob-menu {
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   header {
     left: -120%;
   }
