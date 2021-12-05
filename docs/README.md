@@ -18,7 +18,7 @@ https://github.com/dylan-devs/DylanEsteban_T1A2
 
 <!-- published site-->
 
-https://desteban.netlify.app/
+https://desteban.netlify.app
 
 Purpose: the intent and purpose behind this website was to build functional site, utilising working knowledge of HTML, CSS, Git and GitHub, in order to design an online presence for myself as a future developer. Further more, this site will be worked on, improved, and returned too over again in order to also serve as a repository for completed future projects. My hope is that this will also illustrate my passions, interests, but importantly, my tech related work and skills.
 
