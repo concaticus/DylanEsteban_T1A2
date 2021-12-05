@@ -32,7 +32,7 @@ Wire frames screen shots:
 
 ![Wire frames](/docs/Home_MobileTablet.png)
 
-![Wire frames](/docs/AboutMe_MobileTablet.png)
+![Wire frames](/docs/AboutMe_MobileTable.png)
 
 ![Wire frames](/docs/projects-MobileTablet.png)
 
