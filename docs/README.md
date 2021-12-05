@@ -26,19 +26,19 @@ Sitemap:
 ![SiteMap](/docs/portfolio-sitemap.png)
 
 Wire frames screen shots:
-![Wire frames](docs/Wireframes/Homepage.png)
+![Wire frames](docs/Homepage.png)
 
-![Wire frames](docs/Wireframes/Projects,blog,contact-page.png)
+![Wire frames](docs/Projects,blog,contact-page.png)
 
-![Wire frames](docs/Wireframes/Home_MobileTablet.png)
+![Wire frames](docs/Home_MobileTablet.png)
 
-![Wire frames](docs/Wireframes/AboutMe_MobileTablet.png)
+![Wire frames](docs/AboutMe_MobileTablet.png)
 
-![Wire frames](docs/Wireframes/Projects_MobileTablet.png)
+![Wire frames](docs/Projects_MobileTablet.png)
 
-![Wire frames](docs/Wireframes/Blog_MobileTablet.png)
+![Wire frames](docs/Blog_MobileTablet.png)
 
-![Wire frames](docs/Wireframes/Contact_MobileTablet.png)
+![Wire frames](docs/Contact_MobileTablet.png)
 
 Functionality:
 
