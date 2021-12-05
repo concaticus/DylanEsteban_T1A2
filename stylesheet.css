@@ -66,8 +66,8 @@ header {
 }
 
 header .me img {
-  height: 17.5rem;
-  width: 17.5rem;
+  height: 15rem;
+  width: 15rem;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -196,10 +196,16 @@ header .nav-socials ul li .fab:hover {
   font-weight: 1000;
 }
 /* copyright styling  */
+
+header .copy-rights {
+  padding-bottom: 65px;
+  display: flex;
+  align-items: flex-end;
+}
 header .copy-rights p {
   position: relative;
-  padding-top: 50%;
-  padding-bottom: 50%;
+  padding-top: 25px;
+  /* padding-bottom: 50% */
   font: bold;
   font-size: 12px;
   display: flex;
